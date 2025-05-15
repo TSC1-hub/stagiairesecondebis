@@ -29,7 +29,7 @@ nav {
 nav button {
   padding: 10px 20px;
   font-size: 1.1em;
-  background: #00c6ff;
+  background: rgba(0, 0, 0, 0.4);
   color: white;
   border: none;
   border-radius: 10px;
