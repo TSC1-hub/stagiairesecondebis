@@ -10,7 +10,7 @@ header {
   padding: 40px 20px;
   background-size: cover;
   background-position: center;
-  color: rgba(0, 0, 0, 0.4);
+  color: #fff;
   text-shadow: 2px 2px 8px black;
 }
 
@@ -52,7 +52,7 @@ main {
 
 footer {
   text-align: center;
-  padding: 40px;
+  padding: 10px;
   font-size: 0.9em;
   background: white; /* même fond que main */
   color: #000099; 
