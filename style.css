@@ -65,7 +65,7 @@ footer::before {
   top: 50%; /* centrer verticalement */
   left: 15px; /* ajuster la distance depuis la gauche */
   transform: translateY(-50%); /* corriger le centrage vertical */
-  background-image: url('https://www.learningplanetinstitute.org/wp-content/uploads/2022/10/logo.svg');
+  background-image: url('https://drive.google.com/file/d/1kMNBS8cACgJtecsBpR9CWl2zovQD_NJr/view?usp=drive_link');
   background-size: contain; /* assure que l'image n'est pas étirée */
   background-repeat: no-repeat;
   width: 50px; /* largeur de l'image */
