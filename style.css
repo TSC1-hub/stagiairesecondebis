@@ -54,7 +54,7 @@ footer {
   text-align: center;
   padding: 15px;
   font-size: 0.9em;
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255);
   color: rgba(0, 0, 255, 1);
   margin-top: 40px;
   position: relative; /* permet de positionner l'image */
