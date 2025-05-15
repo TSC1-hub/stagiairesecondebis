@@ -1,56 +1,74 @@
-/* Corps général */
 body {
   font-family: 'Archivo Narrow', sans-serif;
   margin: 0;
-  background: linear-gradient(135deg, #f7f9fb, #e3e7ed);
-  color: #333;
-  overflow-x: hidden;
+  background: rgba(101, 203, 93,1);
+  color: white;
 }
 
-/* HEADER */
 header {
   text-align: center;
-  padding: 60px 20px;
-  background: linear-gradient(135deg, #0072ff, #00c6ff);
+  padding: 40px 20px;
+  background-size: cover;
+  background-position: center;
   color: #fff;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  border-bottom: 6px solid #00c6ff;
+  text-shadow: 2px 2px 8px black;
 }
 
 header h1 {
-  font-size: 3em;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin: 0;
+  font-size: 2.5em;
 }
 
-header p {
-  font-size: 1.2em;
-  margin-top: 10px;
-  color: rgba(255, 255, 255, 0.8);
-}
-
-/* NAVIGATION */
 nav {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 30px;
+  gap: 20px;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.7);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-  border-top: 2px solid #0072ff;
-  border-bottom: 2px solid #00c6ff;
+  background: rgba(101, 203, 93,1);
 }
 
 nav button {
-  padding: 15px 25px;
-  font-size: 1.2em;
-  font-weight: bold;
-  background: linear-gradient(135deg, #0072ff, #00d4ff);
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background: rgba(0, 0, 0, 0.4);
   color: white;
   border: none;
-  border-radius: 30px;
+  border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0 5px 15px*
-
+  transition: background 0.3s;
+}
+
+nav button:hover {
+  background: #0072ff;
+}
+
+main {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  background: white; /* même fond que main */
+  color: #000099; 
+  margin-top: 40px;
+  position: relative; /* permet de positionner l'image */
+}
+
+footer::before {
+  content: ''; /* créer un élément pour l'image */
+  position: absolute;
+  top: 50%; /* centrer verticalement */
+  left: 15px; /* ajuster la distance depuis la gauche */
+  transform: translateY(-50%); /* corriger le centrage vertical */
+  background-image: url('https://www.learningplanetinstitute.org/wp-content/uploads/2022/10/logo.svg');
+  background-size: contain; /* assure que l'image n'est pas étirée */
+  background-repeat: no-repeat;
+  width: 50px; /* largeur de l'image */
+  height: 50px; /* hauteur de l'image */
+}
